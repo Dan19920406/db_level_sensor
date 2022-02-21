@@ -37,7 +37,9 @@ This is a db level sensor, send data by wifi to the custom api
 ### 3. Configure the serial_port.in
 1. Hardware connection
 > FT232     RX ------- TX    Sensor
+
 >              VVC ------- 5V
+
 >             GND ------- GND
 2. raspi type "ls /dev/tty*" find the serial port
 3. Modify the .in file content
