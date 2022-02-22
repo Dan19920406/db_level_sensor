@@ -1,0 +1,10 @@
+[Unit]
+ Description=db level monitor Service
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=/usr/bin/python /home/pi/send_db_level.py
+
+ [Install]
+ WantedBy=multi-user.target

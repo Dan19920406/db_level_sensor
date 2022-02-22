@@ -54,5 +54,12 @@ GND ------- GND
 > - Change the requests.post data to your own format
 2. Execute the send_db_level.py
 
+### 5. Set as service
+1. Copy "db_level_monitor.service" to /lib/systemd/system/db_level_monitor.service
+2. ExecStart=/usr/bin/python /home/pi/send_db_level.py > /home/pi/db.level.log 2>&1 
+3. sudo chmod 644 /lib/systemd/system/db_level_monitor.service
+4. sudo systemctl daemon-reload
+5. sudo systemctl enable db_level_monitor.service
+6. sudo reboot
 
 
