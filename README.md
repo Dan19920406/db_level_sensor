@@ -50,8 +50,8 @@ GND ------- GND
 
 ### 4. Data upload
 1. Open send_db_level.py
-> - Change the internalUrl and externalUrl to your own api
-> - Change the requests.post data to your own format
+> - Change the internalUrl and externalUrl for your api
+> - Change the requests.post data for your format
 2. Execute the send_db_level.py
 
 ### 5. Set as service
