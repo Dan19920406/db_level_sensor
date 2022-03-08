@@ -1,5 +1,5 @@
 # db_level_sensor describe
-This is a db level sensor, send data by wifi to the custom api
+This is a db level sensor, made by db sensor and raspberry pi, send data by wifi to the custom api
 
 ## Material
 1. raspberry pi
