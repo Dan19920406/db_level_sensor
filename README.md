@@ -14,7 +14,7 @@ This is a db level sensor, send data by wifi to the custom api
 ### 1. Raspberry pi setting
 1. Use Raspberry Pi Imager install os to SD card
 > - Enable SSH
-> - Configure wifi
+> - Configure wifi (Advanced Options need to press CTRL + SHIFT + X)
 ![imager](https://github.com/Dan19920406/db_level_sensor/blob/main/picture/raspberry_pi_imager.png)
 2. Power on your raspberry pi
 3. Find your raspi in the intranet
